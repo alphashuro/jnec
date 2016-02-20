@@ -1,0 +1,10 @@
+.wrapper.style1 {
+  background-color: #fff;
+}
+.wrapper.style1 * {
+  color: #575757;
+}
+.wrapper.style1 input,
+.wrapper.style1 textarea {
+  border-color: #aaa;
+}
