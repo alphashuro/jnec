@@ -1,9 +1,23 @@
+dark = #444
+light = #fff
+
+color1 = dark
+color2 = light
+color3 = #aaa
+
 .wrapper
   &.style1
-    background-color #fff
+    background-color color2
 
     *
-      color #575757
+      color color1 !important
 
     input, textarea
-      border-color #aaa
+      border-color color1 !important
+
+      &[type=submit]
+        transition all .3s
+
+        &:hover
+          background-color color1
+          color color2 !important

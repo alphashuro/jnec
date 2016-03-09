@@ -2,9 +2,18 @@
   background-color: #fff;
 }
 .wrapper.style1 * {
-  color: #575757;
+  color: #444 !important;
 }
 .wrapper.style1 input,
 .wrapper.style1 textarea {
-  border-color: #aaa;
+  border-color: #444 !important;
+}
+.wrapper.style1 input[type=submit],
+.wrapper.style1 textarea[type=submit] {
+  transition: all 0.3s;
+}
+.wrapper.style1 input[type=submit]:hover,
+.wrapper.style1 textarea[type=submit]:hover {
+  background-color: #444;
+  color: #fff !important;
 }
